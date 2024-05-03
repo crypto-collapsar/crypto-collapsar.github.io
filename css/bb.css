@@ -7,7 +7,7 @@ div.timenode:after {
     content: '';
     z-index: 1;
     position: absolute;
-    background: rgba(68, 215, 182, 0.5);
+    background: rgba(0, 0, 0, 0.456);
     width: 2px;
     left: 7px;
 }
@@ -50,14 +50,14 @@ div.timenode .meta:after {
 }
 
 div.timenode .meta:before {
-    background: rgba(68, 215, 182, 0.5);
+    background: rgba(0, 0, 0, 0.5);
     width: 16px;
     height: 16px;
     border-radius: 8px;
 }
 
 div.timenode .meta:after {
-    background: #44d7b6;
+    background: #000000;
     margin-left: 2px;
     margin-top: 2px;
     width: 12px;
@@ -96,7 +96,7 @@ div.timenode .body > *:last-child {
 }
 
 div.timenode .body .highlight {
-    border: 1px solid #e4e4e4;
+    border: 1px solid #000000;
 }
 
 div.timenode:hover .meta {
@@ -104,11 +104,11 @@ div.timenode:hover .meta {
 }
 
 div.timenode:hover .meta:before {
-    background: rgba(255, 87, 34, 0.5);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 div.timenode:hover .meta:after {
-    background: #ff5722;
+    background: #000000;
     transform: scale(1);
 }
 
@@ -116,7 +116,7 @@ div.timenode .body {
     margin: 0 0 0 24px;
     padding: 16px;
     border-radius: 8px;
-    background: #f6f6f6;
+    background: #000000;
     display: inline-block;
 }
 

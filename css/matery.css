@@ -110,14 +110,14 @@ pre {
     content: " ";
     position: absolute;
     border-radius: 50%;
-    background: #ff5f56;
+    background: #000000;
     width: 12px;
     height: 12px;
     top: 0;
     left: 12px;
     margin-top: 12px;
-    -webkit-box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
-    box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
+    -webkit-box-shadow: 20px 0 #ffbd2e, 40px 0 #000000;
+    box-shadow: 20px 0 #ffbd2e, 40px 0 #000000;
 }
 
 code {
